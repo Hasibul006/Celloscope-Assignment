@@ -7,6 +7,10 @@
 body {
   font-family: "Segoe UI", sans-serif;
   background: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -178,7 +182,6 @@ header {
   padding: 110px 80px;
   gap: 80px;
   background: #f1f3f7;
-
   display: flex;
   justify-content: center; /* center content horizontally */
   align-items: center; /* center content vertically */
@@ -752,6 +755,12 @@ header {
   opacity: 0;
 }
 
+.contentSpacerPx {
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+}
+
 .statContentHeading {
   width: 263.33px;
   height: 12px;
@@ -818,8 +827,15 @@ header {
   margin-left: -2px;
 }
 
+.statLinkSpacer {
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+}
+
 .statHeadingSpacerText,
 .statSpacerText,
+.statLinkSpacerPx,
 .statLinkSpacerText {
   font-family: Inter;
   font-weight: 600;
