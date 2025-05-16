@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Styled Header</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+    }
+
+    header {
+      width: 1440px;
+      height: 88px;
+      padding: 24px 167px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    .logo {
+      color: #6D758F;
+      width: 79px;
+      height: 20px;
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 18px;                    
+      letter-spacing: 0%;                   
+      text-align: center;                   
+      text-transform: uppercase;           
+      margin: 0;                            
+    }
+
+    .headerRight {
+      width: 558px;
+      height: 40px;
+      display: flex;         
+      gap: 32px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navList {
+      display: flex;
+      width: 302px;
+      height: 15px;
+      gap: 24px;
+    }
+
+    .navlink {
+      display: flex;             
+      
+      gap: 6px;                   
+      height: 12px;              
+      text-decoration: none;
+      color: #000;                
+      font-size: 12px;            
+    }
+
+    .navlinkText {
+      height: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+    }
+
+   .icon-container {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+   .chevron-down {
+    width: 8.25px;
+    height: 4.44px;
+    top: 9.22px;
+    left: 2.88px;
+    display: inline-block;
+    border-right: 1.12px solid #6D758F;
+    border-bottom: 1.12px solid #6D758F;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+    
+    }
+
+    .buttonRow {
+      width: 224px;
+      height: 40px;
+      display: flex;
+      gap: 16px;
+    }
+
+    .buttonRow .primary {
+      width: 134px;
+      height: 40px;
+      padding: 14px 18px;
+      gap: 3px; 
+      border-radius: 6px;
+      background: #6D758F;
+      box-shadow: 0px 1px 4px 0px #19213D14;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .buttonRow .secondary {
+      width: 74px;
+      height: 40px;
+      padding: 15px 18px; 
+      gap: 3px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #E1E4ED;
+      border-radius: 6px;
+      background: #F8FAFF;
+      color: #6D758F;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .buttonRow .secondary .btnText{
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #6D758F;
+    }
+
+    .buttonRow .primary .btnText{
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .arrowContainer {
+      width: 12px;
+      height: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .arrow {
+      width: 8.4px;
+      height: 8.24px;
+      background: #FFFFFF;
+      clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    }
+
+    .section {
+      width: 1440px;
+      height: 746px;
+      padding: 110px 80px;
+      gap: 80px;
+      background: #F1F3F7;
+
+      display: flex;
+      justify-content: center; /* center content horizontally */
+      align-items: center; /* center content vertically */
+    }
+
+    .content {
+      width: 1280px;
+      height: 526px;
+      padding: 80px 0;
+      gap: 64px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    .sectionText {
+      width: 1280px;
+      height: 246px;
+      gap: 48px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .top {
+      width: 1280px;
+      height: 123px;
+      gap: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .mainHeadline {
+      width: 1280px;
+      height: 123px;
+      font-family: Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 110%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #6D758F;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .paragraph {
+      width: 1280px;
+      height: 75px;
+
+      font-family: Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #6D758F;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+
+    .buttonGroup {
+      width: 450px;
+      height: 56px;
+      gap: 16px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 6px;
+    }
+
+
+    .button1 {
+      width: 204px;
+      height: 56px;
+      padding: 16px;
+      border-radius: 6px;
+      background: #6D758F;
+      border: 2px solid #6D758F;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: white;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .text1 {
+      width: 172px;
+      height: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button2 {
+      width: 230px;
+      height: 56px;
+      padding: 16px;
+      border-radius: 6px;
+      background: transparent;
+      border: 2px solid #6D758F;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0;
+      color: #6D758F;
+      text-align: center;
+    }
+
+    .text2 {
+      width: 198px;
+      height: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+
+
+    
+  </style>
+
+</head>
+<body>
+  <header>
+    <div class="logo">LOGO</div>
+    <div class="headerRight">
+      <nav class="navList">
+        <a href="#" class="navlink" style="width: 45px;">
+          <span class="navlinkText" style="width: 45px;">Home</span>
+        </a>
+        <a href="#" class="navlink" style="width: 46px;">
+          <span class="navlinkText" style="width: 46px;">About</span>
+        </a>
+        <a href="#" class="navlink" style="width: 87px; height: 15px;">
+          <span class="navlinkText" style="width: 66px;">Features</span>
+          <div class="icon-container">
+            <span class="chevron-down"></span>
+          </div>
+        </a>
+        <a href="#" class="navlink" style="width: 52px;">
+          <span class="navlinkText" style="width: 52px;">Pricing</span>
+        </a>
+      </nav>
+
+      <div class="buttonRow">
+        <button class="secondary"><span class="btnText">Login</span></button>
+        <button class="primary">
+          <span class="btnText">Get in touch</span>
+          <span class="arrowContainer">
+            <span class="arrow"></span>
+          </span>
+        </button>
+        
+      </div>
+
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="content">
+      <div class="sectionText">
+        <div class="top">
+          <span class="mainHeadline">Lorem ipsum dolor sit amet
+            consectetur adipiscing elit</span>
+        </div>
+        <p class="paragraph">
+          This is a paragraph inside the sectionText area. It uses Roboto font and is centered with line height 140%.
+        </p>
+      </div>
+      <div class="buttonGroup">
+        <button class="button1">
+          <span class="text1">Button One Text</span>
+        </button>
+        <button class="button2">
+          <span class="text2">Button Two Text</span>
+        </button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
