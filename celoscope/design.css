@@ -1549,21 +1549,30 @@ header {
   padding-left: 167px;
   gap: 48px;
   background: #6d758f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footerColum {
-  width: 1163;
-  height: 172;
+  width: 1163px;
+  height: 172px;
   gap: 48px;
+  display: flex;
+  align-items: top;
+  justify-content: top;
 }
 
-.footerManu {
+.footerMenu {
   width: 254.75px;
   height: 172px;
   gap: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
-.footerManuItem {
+.footerMenuTitle {
   width: 100px;
   height: 44px;
   padding-top: 12px;
@@ -1571,13 +1580,108 @@ header {
   gap: 8px;
 }
 
-.manuItem {
+.menuTitle {
   width: 100px;
   height: 20px;
   font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.footerMenuItem {
+  width: 85px;
+  height: 16px;
+  gap: 8px;
+  display: flex;
+}
+
+.menuItem {
+  width: 85px;
+  height: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.iconMenu {
+  width: 254.75px;
+  height: 76px;
+  display: flex;
+  gap: 24px;
+}
+
+.iconButton {
+  width: 426.6666564941406px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.iconMenuList {
+  width: 61px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  gap: 8px;
+}
+
+.iconTitle {
+  width: 61px;
+  height: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.socialIcons {
+  width: 426.6666564941406px;
+  height: 24px;
+  gap: 16px;
+  display: flex;
+}
+
+.iconContainer {
+  width: 24px;
+  height: 24px;
+}
+
+.iconVector {
+  width: 19.957000732421875px;
+  height: 13.968000411987305px;
+  top: 4.61px;
+  left: 2px;
+  color: #ffffff;
+}
+
+.footerLine {
+  width: 1106px;
+  height: 1px;
+  background: #c1c7cd;
+}
+
+.footerBottom {
+  width: 1106px;
+  height: 20px;
+  gap: 48px;
+}
+
+.footerEnding {
+  width: 272px;
+  height: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
   letter-spacing: 0%;
   color: #ffffff;
 }
