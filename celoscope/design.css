@@ -353,7 +353,6 @@ header {
   font-family: Inter;
   font-weight: 800;
   font-size: 48px;
-  leading-trim: Cap height;
   line-height: 48px;
   letter-spacing: 0%;
   color: #6d758f;
@@ -373,7 +372,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -395,7 +393,6 @@ header {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
-  leading-trim: Cap height;
   line-height: 24px;
   letter-spacing: 0%;
   color: #6d758f;
@@ -415,7 +412,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -460,7 +456,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 14px;
-  leading-trim: Cap height;
   line-height: 20px;
   letter-spacing: 0%;
   text-align: center;
@@ -491,7 +486,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 14px;
-  leading-trim: Cap height;
   line-height: 20px;
   letter-spacing: 0%;
   text-align: center;
@@ -885,7 +879,7 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
+
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -907,7 +901,6 @@ header {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
-  leading-trim: Cap height;
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
@@ -928,7 +921,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -1028,8 +1020,11 @@ header {
 .testimonialHeadings {
   width: 418.703125px;
   height: 86px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .testimonialHeadingsTitle {
@@ -1038,7 +1033,6 @@ header {
   font-family: Inter;
   font-weight: 800;
   font-size: 36px;
-  leading-trim: Cap height;
   line-height: 40px;
   letter-spacing: 0%;
   text-align: center;
@@ -1059,7 +1053,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -1081,7 +1074,6 @@ header {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
-  leading-trim: Cap height;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
@@ -1102,7 +1094,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -1198,7 +1189,6 @@ header {
   font-family: Inter;
   font-weight: 400;
   font-size: 14px;
-  leading-trim: Cap height;
   line-height: 22px;
   letter-spacing: 0%;
   color: #6d758f;
@@ -1218,7 +1208,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 12px;
-  leading-trim: Cap height;
   line-height: 18px;
   letter-spacing: 8%;
   text-align: center;
@@ -1266,7 +1255,6 @@ header {
   font-family: Inter;
   font-weight: 600;
   font-size: 16px;
-  leading-trim: Cap height;
   line-height: 22px;
   letter-spacing: 0%;
   vertical-align: bottom;
@@ -1294,9 +1282,302 @@ header {
   font-family: Inter;
   font-weight: 400;
   font-size: 14px;
-  leading-trim: Cap height;
   line-height: 20px;
   letter-spacing: 0%;
   vertical-align: bottom;
   color: #b4b9c9;
+}
+
+.contenCard {
+  width: 1440px;
+  height: auto;
+  padding-top: 80px;
+  padding-right: 167px;
+  padding-bottom: 80px;
+  padding-left: 167px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHeading {
+  width: 418.703125px;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardHeadingTitle {
+  width: 348px;
+  height: 26px;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #6d758f;
+}
+
+.cardHeadingSpacer {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.cardHeadingSpacerText {
+  width: 17px;
+  height: 9px;
+  top: 7px;
+  left: 4px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.cardHeadingSpacerPx {
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.cardHeadingPara {
+  width: 418.703125px;
+  height: 36px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6d758f;
+}
+
+.contentCardSpacer {
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+}
+
+.contentCardSpacerText {
+  width: 17px;
+  height: 9px;
+  top: 19.5px;
+  left: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.contentCardSpacerPx {
+  width: 48px;
+  height: 48px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.cardsRow {
+  width: auto;
+  height: auto;
+  gap: 22px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.masterContent {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  border-width: 1px;
+  background: #ffffff;
+  border: 1px solid #e1e4ed;
+  box-shadow: 0px 1px 4px 0px #19213d14;
+}
+
+.masterContentImage {
+  width: 353.20001220703125px;
+  height: 239.72000122070312px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.masterImageSpacer {
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+}
+
+.masterImageSpacerText {
+  width: 17px;
+  height: 9px;
+  top: 11.5px;
+  left: 8px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.masterImageSpacerPx {
+  width: 32px;
+  height: 32px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.masterTextContent {
+  width: 292.274658203125px;
+  height: auto;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.contentTitle {
+  width: 245.69091796875px;
+  height: 15px;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #6d758f;
+}
+
+.contentTitleSpacer {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.contentTitleSpacerText {
+  width: 17px;
+  height: 9px;
+  top: 7px;
+  left: 4px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.contentTitleSpacerPx {
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.masterTextContentPara {
+  width: 292.274658203125px;
+  height: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #6d758f;
+}
+
+.cardRowSpacer {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.cardRowSpacerText {
+  width: 17px;
+  height: 9px;
+  top: 7px;
+  left: 4px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  leading-trim: Cap height;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.cardRowSpacerPx {
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.footer {
+  width: 1440px;
+  height: 385px;
+  padding-top: 48px;
+  padding-right: 167px;
+  padding-bottom: 48px;
+  padding-left: 167px;
+  gap: 48px;
+  background: #6d758f;
+}
+
+.footerColum {
+  width: 1163;
+  height: 172;
+  gap: 48px;
+}
+
+.footerManu {
+  width: 254.75px;
+  height: 172px;
+  gap: 16px;
+}
+
+.footerManuItem {
+  width: 100px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  gap: 8px;
+}
+
+.manuItem {
+  width: 100px;
+  height: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
