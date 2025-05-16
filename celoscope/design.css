@@ -840,47 +840,44 @@ header {
   color: #ffffff;
 }
 
-//gallery
-
 .gallery {
   width: 1440px;
-  height: 1029.1500244140625px;
-  padding-top: 80px;
-  padding-right: 167px;
-  padding-bottom: 80px;
-  padding-left: 167px;
-  align-content: center;
-  justify-content: center;
-  display: flex;
+  height: 1029.15px;
+  padding: 80px 167px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .galleryHeading {
-  width: 446px;
-  height: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.galleryHeadingTitle {
-  width: 388px;
-  height: 26px;
-  font-family: Inter;
+.headingTitle {
+  font-family: Inter, sans-serif;
   font-weight: 800;
   font-size: 36px;
-  leading-trim: Cap height;
   line-height: 40px;
-  letter-spacing: 0%;
   text-align: center;
-  vertical-align: bottom;
   color: #6d758f;
+  margin: 0 auto;
 }
 
-.galleryheadSpacer {
+.galleryHeadSpacer {
   width: 24px;
   height: 24px;
   opacity: 0;
 }
 
-.galleryheadSpacerText {
+.galleryHeadSpacerText {
   width: 17px;
   height: 9px;
   top: 7px;
@@ -896,15 +893,15 @@ header {
   background: #6d758f;
 }
 
-.galleryheadSpacerPx {
-  width: 24px;
-  height: 24px;
+.galleryHeadSpacerPx {
+  width: 24;
+  height: 24;
   border-width: 1px;
   background: #f1f3f7;
   border: 1px solid #6d758f;
 }
 
-.galleryHeadingPara {
+.galleryHeadPara {
   width: 446px;
   height: 41px;
   font-family: Inter;
@@ -936,12 +933,12 @@ header {
   letter-spacing: 8%;
   text-align: center;
   text-transform: uppercase;
-  color: #6d758f;
+  background: #6d758f;
 }
 
 .gallerySpacerPx {
-  width: 48px;
-  height: 48px;
+  width: 48;
+  height: 48;
   border-width: 1px;
   background: #f1f3f7;
   border: 1px solid #6d758f;
@@ -951,25 +948,355 @@ header {
   width: 1105.919921875px;
   height: 730.1500244140625px;
   gap: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.imageColum1 {
+.imageColom1,
+.imageColom2,
+.imageColom3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin: 0;
+}
+
+/* Specific widths and heights per column */
+.imageColom1 {
   width: 353.9599914550781px;
   height: 729.9199829101562px;
-  gap: 22px;
 }
 
-.imageColum2 {
+.image1Colom1 {
+  width: 353.9599914550781px;
+  height: 353.9599914550781px;
+  border-radius: 6px;
+}
+
+.imageColom2 {
   width: 354px;
   height: 730.1500244140625px;
-  gap: 22px;
 }
 
-.imageColum3 {
+.image1Colom2 {
+  width: 354px;
+  height: 477px;
+  border-radius: 6px;
+}
+
+.image2Colom2 {
+  width: 353.9599914550781px;
+  height: 231.14999389648438px;
+  border-radius: 6px;
+}
+
+.imageColom3 {
   width: 353.9599914550781px;
   height: 721.8499755859375px;
-  gap: 22px;
 }
 
+.image1Colom3 {
+  width: 353.9599914550781px;
+  height: 231.14999389648438px;
+  border-radius: 6px;
+}
 
-.
+.image2Colom3 {
+  width: 353.9599914550781px;
+  height: 468.70001220703125px;
+  border-radius: 6px;
+}
+
+.testimonial {
+  width: 1440px;
+  height: 564px;
+  padding-top: 100px;
+  padding-right: 167px;
+  padding-bottom: 100px;
+  padding-left: 167px;
+  background: #f1f3f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialHeadings {
+  width: 418.703125px;
+  height: 86px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialHeadingsTitle {
+  width: 374px;
+  height: 26px;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 36px;
+  leading-trim: Cap height;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #6d758f;
+}
+
+.testimonialHeadingsSpecer {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.testimonialHeadingsSpecerText {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  leading-trim: Cap height;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6d758f;
+}
+
+.testimonialHeadingsSpecerPx {
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.testimonialHeadingsPara {
+  width: 418.703125px;
+  height: 36px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6d758f;
+}
+
+.testimonialSpecer {
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+}
+
+.testimonialSpecerText {
+  width: 17px;
+  height: 9px;
+  top: 19.5px;
+  left: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  leading-trim: Cap height;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6d758f;
+}
+
+.testimonialSpecerPx {
+  width: 48px;
+  height: 48px;
+  border-width: 1px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.membersRow {
+  width: 1106px;
+  height: 230px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonialV2 {
+  width: 353px;
+  height: auto;
+  border-radius: 8px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 27px;
+  padding-left: 24px;
+  gap: 10px;
+  border-width: 1px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px 0px #19213d14;
+  border: 1px solid #e1e4ed;
+  box-shadow: 0px 1px 4px 0px #19213d14;
+}
+
+.testimonialContent {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.review {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+
+.filledStar {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 18px;
+  height: 17.247568130493164px;
+  border-radius: 0.5px;
+  top: 3.31px;
+  left: 123.35px;
+  background: #b4b9c9;
+}
+
+.testimonialSpecerStar {
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+}
+
+.testimonialSpecerStarPx {
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  left: 120.35px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.testimonialPara {
+  width: 305px;
+  height: 76px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+  color: #6d758f;
+}
+
+.testimonialParaSpecer {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.testimonialParaSpecerText {
+  width: 17px;
+  height: 9px;
+  top: 7px;
+  left: 124.35px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  leading-trim: Cap height;
+  line-height: 18px;
+  letter-spacing: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  background: #6d758f;
+}
+
+.testimonialParaSpecerPx {
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  left: 120.35px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.testimonialInfo {
+  width: auto;
+  height: auto;
+}
+
+.infoSpacer {
+  width: 8px;
+  height: 8px;
+  opacity: 0;
+}
+
+.infoSpacerPx {
+  width: 8px;
+  height: 8px;
+  border-width: 1px;
+  left: 120.35px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.infoTitleContainer {
+  width: auto;
+  height: auto;
+}
+
+.infoTitle {
+  width: 79px;
+  height: 12px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  leading-trim: Cap height;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #6d758f;
+}
+
+.InfotitleSpacer {
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+}
+
+.InfotitleSpacerPx {
+  width: 16px;
+  height: 16px;
+  border-width: 1px;
+  left: 120.35px;
+  background: #f1f3f7;
+  border: 1px solid #6d758f;
+}
+
+.infoTitle2 {
+  width: 110px;
+  height: 10px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  leading-trim: Cap height;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #b4b9c9;
+}
