@@ -1669,7 +1669,6 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
-
   gap: 8px;
 }
 
@@ -1754,10 +1753,6 @@ header {
   .footer {
     padding: 40px 5%;
   }
-
-  .iconButton {
-    align-items: center;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1768,6 +1763,16 @@ header {
   .footerMenu {
     align-items: center;
     text-align: center;
+  }
+
+  .iconButton {
+    align-items: center;
+  }
+
+  .iconMenuList {
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .socialIcons {
