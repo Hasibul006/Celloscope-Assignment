@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="C:\Users\Hasibul\Desktop\test.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <title>Styled Header</title>
 
@@ -11,37 +11,38 @@
 <body>
 
   <header>
-    <div class="logo">Dokan</div>
+    <div class="logo">GariGhora</div>
+    
+    <!-- Mobile menu toggle (checkbox hack) -->
+    <input type="checkbox" id="menu-toggle-input" class="menu-toggle-input">
+    <label for="menu-toggle-input" class="menu-toggle">☰</label>
+    
     <div class="headerRight">
       <nav class="navList">
-        <a href="#" class="navlink" style="width: 45px;">
-          <span class="navlinkText" style="width: 45px;">Home</span>
+        <a href="#" class="navlink">
+          <span class="navlinkText">Home</span>
         </a>
-        <a href="#" class="navlink" style="width: 46px;">
-          <span class="navlinkText" style="width: 46px;">About</span>
+        <a href="#" class="navlink">
+          <span class="navlinkText">About</span>
         </a>
-        <a href="#" class="navlink" style="width: 87px; height: 15px;">
-          <span class="navlinkText" style="width: 66px;">Features</span>
+        <a href="#" class="navlink">
+          <span class="navlinkText">Features</span>
           <div class="icon-container">
             <span class="chevron-down"></span>
           </div>
         </a>
-        <a href="#" class="navlink" style="width: 52px;">
-          <span class="navlinkText" style="width: 52px;">Pricing</span>
+        <a href="#" class="navlink">
+          <span class="navlinkText">Pricing</span>
         </a>
       </nav>
 
       <div class="buttonRow">
-        <button class="secondary"><span class="btnText">Login</span></button>
+        <button class="secondary">Login</button>
         <button class="primary">
-          <span class="btnText">Get in touch</span>
-          <span class="arrowContainer">
-            <span class="arrow"></span>
-          </span>
+          Get in touch
+          <div class="statLinkArrow">→</div>
         </button>
-        
       </div>
-
     </div>
   </header>
 
@@ -49,21 +50,18 @@
     <div class="content">
       <div class="sectionText">
         <div class="top">
-          <span class="mainHeadline">Lorem ipsum dolor sit amet
-            consectetur adipiscing elit</span>
+          <span class="mainHeadline">Explore top brands, unbeatable prices, and exciting offers - all in one place!</span>
         </div>
         <p class="paragraph">
-          Praesent et nisl nisl. Cras ut finibus eros. Morbi scelerisque tellus nec tortor viverra,
-          in tempus tellus tincidunt. Proin rhoncus quam a pulvinar tempor.
-          Sed at blandit turpis, ut interdum ligula.
+          Welcome to you ultimate car destination - where styles meets performance and every drive begins with trust. Whether you've looking for a sleek sedan, a rugged SUV, or a reliable family car, we've got you covered. Explore our wide range of vehicles and drive home your perfect match today.
         </p>
       </div>
       <div class="buttonGroup">
         <button class="button1">
-          <span class="text1">Primary Action</span>
+          <span class="text1">Go shopping</span>
         </button>
         <button class="button2">
-          <span class="text2">Secondary Action</span>
+          <span class="text2">Contact us</span>
         </button>
       </div>
     </div>
@@ -71,37 +69,35 @@
 
   <section class="heroV1">
     <div class="gridHerov1">
-      <h1 class="heroHeading">Vestibulum ultricie hend rerit prei tium</h1>
+      <h1 class="heroHeading">Drive with confidence Drive with us</h1>
       <div class="spacer1">
         <span class="spacer1Text">24</span>
         <span class="spacer1Px"></span>
       </div>
-      <p class="heroV1Para">Lorem ipsum dolor sit amet consectetur adipiscing elidolor mattis sit phasellus mollis sit aliquam sit nullam neques.</p>
+      <p class="heroV1Para">
+        Explore our latest collection of electric and hybrid vehicles. Drive smarter, cleaner and faster because future is electric!
+      </p>
       <div class="spacer2">
         <span class="spacer2Text">32</span>
         <span class="spacer2Px"></span>
       </div>
       <div class="heroV1Button">
         <button class="herov1PrimaryButton">
-          <span class="herov1PrimaryButtonText">Get started →</span>
+          <span>Get started →</span>
         </button>
         <button class="heroV1SecondaryButton">
-          <span class="heroV1SecondaryButtonText">Learn more</span>
+          <span>Learn more</span>
         </button>
       </div>
     </div>
     <div class="imageHeroV1">
-      <img src="imageHead.jpg" alt="Image 3" width="100%" height="100%">
+      <img src="imageHead.jpg" alt="Hero Image">
     </div>
   </section>
 
   <section class="stats">
     <div class="statHeading">
       <div class="statHeadingTitle">Dolor mollis arcu vehicu</div>
-      <div class="statHeadingSpacer">
-        <span class="statHeadingSpacerText">24</span>
-        <span class="statHeadingSpacerpx"></span>
-      </div>
       <div class="statHeadingPara">
         Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
       </div>
@@ -114,21 +110,21 @@
 
     <div class="statContainer">
       <div class="statContainerStats">
+
         <div class="statList">
           <div class="statContent">
             <div class="statNumber">200+</div>
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
-            <div class="statContentHeading">Vestibulum hendrerit</div>
+            <div class="statContentHeading">In Stock</div>
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
             <div class="statContentPara">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma
+              We maintain a inventory of over 200 vehicles at all times ranging from brandnew to second hand. 
             </div>
             <div class="statLinkSpacer">
-              <span class="statLinkSpacerText">24</span>
               <span class="statLinkSpacerPx"></span>
             </div>
             <a href="#" class="statContentLink">
@@ -146,15 +142,14 @@
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
-            <div class="statContentHeading">Mauris facilisis elementum</div>
+            <div class="statContentHeading">Customer Satisfaction Rate</div>
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
             <div class="statContentPara">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma
+              Based on thousands of verified reviews, we consistently exceed expectations in sales and service.
             </div>
             <div class="statLinkSpacer">
-              <span class="statLinkSpacerText">24</span>
               <span class="statLinkSpacerPx"></span>
             </div>
             <a href="#" class="statContentLink">
@@ -168,19 +163,18 @@
 
         <div class="statList">
           <div class="statContent">
-            <div class="statNumber">34+</div>
+            <div class="statNumber">5,200++</div>
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
-            <div class="statContentHeading">Nullam ut nisi nisi</div>
+            <div class="statContentHeading">Cars Sold Since 2015</div>
             <div class="contentSpacer">
               <span class="contentSpacerPx"></span>
             </div>
             <div class="statContentPara">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma
+              A trusted name in the car business for over a decade, delivering vehicles across the region.
             </div>
             <div class="statLinkSpacer">
-              <span class="statLinkSpacerText">24</span>
               <span class="statLinkSpacerPx"></span>
             </div>
             <a href="#" class="statContentLink">
@@ -191,77 +185,66 @@
             </a>
           </div>
         </div>
-        
-        
       </div>
     </div>
   </section>
 
-
   <div class="gallery">
-    
-      <div class="galleryHeading">
-        <div class="headingTitle">Dolor mollis arcu vehicu</div>
-        <div class="galleryHeadSpacer">
-          <span class="galleryHeadSpacerText">24</span>
-          <span class="galleryHeadSpacerPx"></span>
-        </div>
-        <span class="galleryHeadPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
+    <div class="galleryHeading">
+      <div class="headingTitle">Dolor mollis arcu vehicu</div>
+      <div class="statHeadingSpacer">
+        <span class="statLinkSpacerPx"></span>
       </div>
+      <span class="galleryHeadPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
+    </div>
 
-      <div class="gallerySpacer">
-        <span class="gallerySpacerText">48</span>
-        <span class="gallerySpacerPx"></span>
-      </div>
+    <div class="gallerySpacer">
+      <span class="gallerySpacerText">48</span>
+      <span class="gallerySpacerPx"></span>
+    </div>
 
-      <div class="galleryPhotoGrid">
-        <div class="imageColom1">
-          <div class="image1Colom1">
-            <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
-          </div>
-          <div class="image1Colom1">
-            <img src="image1.jpg" alt="Gallery image 2" width="100%" height="100%">
-          </div>
+    <div class="galleryPhotoGrid">
+      <div class="imageColom1">
+        <div class="image1Colom1">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 1">
         </div>
-
-        <div class="imageColom2">
-          <div class="image1Colom2">
-            <img src="image1.jpg" alt="Gallery image 3" width="100%" height="100%">
-          </div>
-          <div class="image2Colom2">
-            <img src="image1.jpg" alt="Gallery image 4" width="100%" height="100%">
-          </div>
-        </div>
-
-        <div class="imageColom3">
-          <div class="image1Colom3">
-            <img src="image1.jpg" alt="Gallery image 5" width="100%" height="100%">
-          </div>
-          <div class="image2Colom3">
-            <img src="image1.jpg" alt="Gallery image 6" width="100%" height="100%">
-          </div>
+        <div class="image1Colom1">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 2">
         </div>
       </div>
 
-      
+      <div class="imageColom2">
+        <div class="image1Colom2">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 3">
+        </div>
+        <div class="image2Colom2">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 4">
+        </div>
+      </div>
+
+      <div class="imageColom3">
+        <div class="image1Colom3">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 5">
+        </div>
+        <div class="image2Colom3">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Gallery image 6">
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="testimonial">
     <div class="testimonialHeadings">
       <span class="testimonialHeadingsTitle">Dolor vehicu</span>
-      <div class="testimonialHeadingsSpecer">
-        <span class="testimonialHeadingsSpecerText">24</span>
-        <span class="testimonialHeadingsSpecerPx"></span>
-      </div>
       <span class="testimonialHeadingsPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
     </div>
 
     <div class="testimonialSpecer">
-      <span class="testimonialSpecerText">48</span>
       <span class="testimonialSpecerPx"></span>
     </div>
 
     <div class="membersRow">
+      
       <div class="testimonialV2">
         <div class="testimonialContent">
           <div class="review">
@@ -293,15 +276,9 @@
           </div>
 
           <div class="testimonialSpecerStar">
-            <span class="testimonialSpecerStarPx"></span>
           </div>
 
           <span class="testimonialPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
-
-          <div class="testimonialParaSpecer">
-            <span class="testimonialParaSpecerText">24</span>
-            <span class="testimonialParaSpecerPx"></span>
-          </div>
 
           <div class="testimonialInfo">
             <div class="infoSpacer">
@@ -315,9 +292,7 @@
               <span class="infoTitle2">CEO & Founder</span>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <div class="testimonialV2">
@@ -356,10 +331,7 @@
 
           <span class="testimonialPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
 
-          <div class="testimonialParaSpecer">
-            <span class="testimonialParaSpecerText">24</span>
-            <span class="testimonialParaSpecerPx"></span>
-          </div>
+          
 
           <div class="testimonialInfo">
             <div class="infoSpacer">
@@ -373,9 +345,7 @@
               <span class="infoTitle2">CEO & Founder</span>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <div class="testimonialV2">
@@ -414,11 +384,6 @@
 
           <span class="testimonialPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
 
-          <div class="testimonialParaSpecer">
-            <span class="testimonialParaSpecerText">24</span>
-            <span class="testimonialParaSpecerPx"></span>
-          </div>
-
           <div class="testimonialInfo">
             <div class="infoSpacer">
               <span class="infoSpacerPx"></span>
@@ -431,24 +396,15 @@
               <span class="infoTitle2">CEO & Founder</span>
             </div>
           </div>
-
         </div>
-
       </div>
-
+      
     </div>
-
-    
-
   </div>
 
   <div class="contenCard">
     <div class="cardHeading">
       <span class="cardHeadingTitle">Lorem ipsum dolor</span>
-      <div class="cardHeadingSpacer">
-        <span class="cardHeadingSpacerText">24</span>
-        <span class="cardHeadingSpacerPx"></span>
-      </div>
       <span class="cardHeadingPara">
         Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
       </span>
@@ -460,102 +416,88 @@
     </div>
 
     <div class="cardsRow">
-
-      <div class="masterContent">
-        <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
-        </div>
-        <div class="masterImageSpacer">
-          <span class="masterImageSpacerText">24</span>
-          <span class="masterImageSpacerPx"></span>
-        </div>
-
-        <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
-          </a>
-        </div>
-
-        
-
-
-      </div>
-
-      <div class="masterContent">
-        <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
-        </div>
-        <div class="masterImageSpacer">
-          <span class="masterImageSpacerText">24</span>
-          <span class="masterImageSpacerPx"></span>
-        </div>
-
-        <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
-          </a>
-        </div>
-
-        
-
-
-      </div>
-
-      <div class="masterContent">
-        <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
-        </div>
-        <div class="masterImageSpacer">
-          <span class="masterImageSpacerText">24</span>
-          <span class="masterImageSpacerPx"></span>
-        </div>
-
-        <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
-          <div class="contentTitleSpacer">
-            <span class="contentTitleSpacerText">24</span>
-            <span class="contentTitleSpacerPx"></span>
-          </div>
-          <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
-          </a>
-        </div>
-      </div>
       
+      <div class="masterContent">
+        <div class="masterContentImage">
+          <img src="C:Users\Hasibul\Desktop\hasibul.jpg" alt="Content image 1">
+        </div>
+        <div class="masterImageSpacer">
+          <span class="masterImageSpacerText">24</span>
+          <span class="masterImageSpacerPx"></span>
+        </div>
+        <div class="masterTextContent">
+          <span class="contentTitle">Lorem ipsum dolor</span>
+          <div class="contentTitleSpacer">
+            <span class="contentTitleSpacerText">24</span>
+            <span class="contentTitleSpacerPx"></span>
+          </div>
+          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
+          <div class="contentTitleSpacer"></div>
+          <a href="#" class="CardContentLink">
+            <span class="statLinkItem2">Learn more</span>
+            <div class="statLinkArrow2">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="masterContent">
+        <div class="masterContentImage">
+          <img src="image1.jpg" alt="Content image 1">
+        </div>
+        <div class="masterImageSpacer">
+          <span class="masterImageSpacerText">24</span>
+          <span class="masterImageSpacerPx"></span>
+        </div>
+        <div class="masterTextContent">
+          <span class="contentTitle">Lorem ipsum dolor</span>
+          <div class="contentTitleSpacer">
+            <span class="contentTitleSpacerText">24</span>
+            <span class="contentTitleSpacerPx"></span>
+          </div>
+          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
+          <div class="contentTitleSpacer">
+            <span class="contentTitleSpacerText">24</span>
+            <span class="contentTitleSpacerPx"></span>
+          </div>
+          <a href="#" class="statContentLink">
+            <span class="statLinkItem">Learn more</span>
+            <div class="statLinkArrow">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="masterContent">
+        <div class="masterContentImage">
+          <img src="image1.jpg" alt="Content image 1">
+        </div>
+        <div class="masterImageSpacer">
+          <span class="masterImageSpacerText">24</span>
+          <span class="masterImageSpacerPx"></span>
+        </div>
+        <div class="masterTextContent">
+          <span class="contentTitle">Lorem ipsum dolor</span>
+          <div class="contentTitleSpacer">
+            <span class="contentTitleSpacerText">24</span>
+            <span class="contentTitleSpacerPx"></span>
+          </div>
+          <span class="masterTextContentPara">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</span>
+          <div class="contentTitleSpacer">
+            <span class="contentTitleSpacerText">24</span>
+            <span class="contentTitleSpacerPx"></span>
+          </div>
+          <a href="#" class="statContentLink">
+            <span class="statLinkItem">Learn more</span>
+            <div class="statLinkArrow">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
     </div>
 
     <div class="cardRowSpacer">
@@ -567,15 +509,14 @@
 
       <div class="masterContent">
         <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
+          <img src="image1.jpg" alt="Content image 1">
         </div>
         <div class="masterImageSpacer">
           <span class="masterImageSpacerText">24</span>
           <span class="masterImageSpacerPx"></span>
         </div>
-
         <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
+          <span class="contentTitle">Lorem ipsum dolor</span>
           <div class="contentTitleSpacer">
             <span class="contentTitleSpacerText">24</span>
             <span class="contentTitleSpacerPx"></span>
@@ -586,29 +527,24 @@
             <span class="contentTitleSpacerPx"></span>
           </div>
           <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
+            <span class="statLinkItem">Learn more</span>
+            <div class="statLinkArrow">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
           </a>
         </div>
-
-        
-
-
       </div>
 
       <div class="masterContent">
         <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
+          <img src="image1.jpg" alt="Content image 1">
         </div>
         <div class="masterImageSpacer">
           <span class="masterImageSpacerText">24</span>
           <span class="masterImageSpacerPx"></span>
         </div>
-
         <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
+          <span class="contentTitle">Lorem ipsum dolor</span>
           <div class="contentTitleSpacer">
             <span class="contentTitleSpacerText">24</span>
             <span class="contentTitleSpacerPx"></span>
@@ -619,29 +555,24 @@
             <span class="contentTitleSpacerPx"></span>
           </div>
           <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
+            <span class="statLinkItem">Learn more</span>
+            <div class="statLinkArrow">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
           </a>
         </div>
-
-        
-
-
       </div>
 
       <div class="masterContent">
         <div class="masterContentImage">
-          <img src="image1.jpg" alt="Gallery image 1" width="100%" height="100%">
+          <img src="image1.jpg" alt="Content image 1">
         </div>
         <div class="masterImageSpacer">
           <span class="masterImageSpacerText">24</span>
           <span class="masterImageSpacerPx"></span>
         </div>
-
         <div class="masterTextContent">
-          <span class="contentTitle"> Lorem ipsum dolor</span>
+          <span class="contentTitle">Lorem ipsum dolor</span>
           <div class="contentTitleSpacer">
             <span class="contentTitleSpacerText">24</span>
             <span class="contentTitleSpacerPx"></span>
@@ -652,70 +583,70 @@
             <span class="contentTitleSpacerPx"></span>
           </div>
           <a href="#" class="statContentLink">
-              <span class="statLinkItem" style="color: #6d758f  ;">Learn more</span>
-              <div class="statLinkArrow">
-                <div class="statLinkArrowRigth"  style="color: #6d758f  ;">→</div>
-              </div>
+            <span class="statLinkItem">Learn more</span>
+            <div class="statLinkArrow">
+              <div class="statLinkArrowRigth">→</div>
+            </div>
           </a>
         </div>
       </div>
-      
+
     </div>
   </div>
 
-  <div class="footer">
+ <div class="footer">
     <div class="footerColum">
       <div class="footerMenu">
         <div class="footerMenuTitle">
           <span class="menuTitle">Col1</span>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Home</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">About</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Services</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Contact</a>
         </div>
       </div>
 
       <div class="footerMenu">
         <div class="footerMenuTitle">
-          <span class="menuTitle">Col1</span>
+          <span class="menuTitle">Col2</span>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Products</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Pricing</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">FAQ</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Support</a>
         </div>
       </div>
 
       <div class="footerMenu">
         <div class="footerMenuTitle">
-          <span class="menuTitle">Col1</span>
+          <span class="menuTitle">Col3</span>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Blog</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Careers</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Press</a>
         </div>
         <div class="footerMenuItem">
-          <span class="menuItem">Home</span>
+          <a href="#" class="menuItem">Partners</a>
         </div>
       </div>
 
@@ -726,16 +657,16 @@
           </div>
           <div class="socialIcons">
             <div class="iconContainer">
-              <a class="iconVector" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="iconVector"><i class="fab fa-facebook-f"></i></a>
             </div>
             <div class="iconContainer">
-              <a class="iconVector" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="iconVector"><i class="fab fa-twitter"></i></a>
             </div>
             <div class="iconContainer">
-              <a class="iconVector" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="iconVector"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="iconContainer">
-              <a class="iconVector" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="iconVector"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
@@ -747,7 +678,6 @@
     <div class="footerBottom">
       <span class="footerEnding">© 2025 Celoscope. All rights reserved by Hasibul Islam.</span>
     </div>
-
   </div>
 
 
