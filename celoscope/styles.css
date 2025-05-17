@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #000;
+  background: #ffffff;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1710,12 +1710,12 @@ header {
   max-width: 1106px;
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
 }
 
 .footerEnding {
-  width: 100%;
+  width: auto;
   height: auto;
   font-family: Roboto, sans-serif;
   font-weight: 400;
