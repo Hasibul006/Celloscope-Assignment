@@ -1778,4 +1778,8 @@ header {
   .socialIcons {
     justify-content: center;
   }
+
+  .footerBottom {
+    justify-content: center;
+  }
 }
