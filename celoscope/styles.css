@@ -81,19 +81,19 @@ header {
 .icon-container {
   width: 15px;
   height: 15px;
-  display: flex;
+  display: block;
   justify-content: center;
+  align-items: top;
 }
 
 .chevron-down {
-  width: 8.25px;
-  height: 4.44px;
-  top: 9.22px;
-  left: 2.88px;
-  display: inline-block;
-  border-right: 1.12px solid #6d758f;
-  border-bottom: 1.12px solid #6d758f;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid #6d758f;
+  border-bottom: 1.5px solid #6d758f;
   transform: rotate(45deg);
+  margin-left: 1.5px;
   box-sizing: border-box;
 }
 
