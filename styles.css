@@ -1669,6 +1669,7 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
+
   gap: 8px;
 }
 
@@ -1752,6 +1753,10 @@ header {
 
   .footer {
     padding: 40px 5%;
+  }
+
+  .iconButton {
+    align-items: center;
   }
 }
 
